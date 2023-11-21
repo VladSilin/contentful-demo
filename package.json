@@ -1,0 +1,42 @@
+{
+  "name": "contentful-demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "contentful-demo-app",
+  "author": "Vlad Silin",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-netlify": "^5.1.1",
+    "gatsby-plugin-postcss": "^6.12.0",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-source-contentful": "^8.12.4",
+    "gatsby-source-filesystem": "^5.12.1",
+    "gatsby-transformer-sharp": "^5.12.3",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "prettier": "3.1.0",
+    "typescript": "^5.1.6"
+  }
+}
