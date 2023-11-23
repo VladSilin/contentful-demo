@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop",
+    "develop": "ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop -H 0.0.0.0",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -37,6 +37,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-react-app": "^7.0.1",
     "prettier": "3.1.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "eslint": "^8.54.0"
   }
 }
