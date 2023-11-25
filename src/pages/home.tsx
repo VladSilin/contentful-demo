@@ -16,7 +16,7 @@ const HomePage = ({ data }: PageProps<Queries.HomePageQuery>) => {
         </div>
       </section>
       <section id="card-product-zone">
-        <div className="relative overflow-auto p-8 bg-sky-100 min-h-screen">
+        <div className="md:flex md:justify-center relative overflow-auto p-8 bg-sky-100 min-h-screen">
           <div
             className={`grid grid-cols-1 md:grid-cols-${data.contentfulFlexibleZone?.columns} grid-rows-${data.contentfulFlexibleZone?.rows} gap-6 font-mono text-black text-xl text-center font-bold leading-6 rounded-lg`}
           >
