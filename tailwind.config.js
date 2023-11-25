@@ -9,9 +9,9 @@ module.exports = {
   },
   plugins: [],
   safelist: [
-    { pattern: /cols-\d/ },
-    { pattern: /rows-\d/ },
-    { pattern: /col-span-\d/ },
-    { pattern: /row-span-\d/ },
+    { pattern: /cols-\d/, variants: ["sm", "md", "lg", "xl", "2xl"] },
+    { pattern: /rows-\d/, variants: ["sm", "md", "lg", "xl", "2xl"] },
+    { pattern: /col-span-\d/, variants: ["sm", "md", "lg", "xl", "2xl"] },
+    { pattern: /row-span-\d/, variants: ["sm", "md", "lg", "xl", "2xl"] },
   ],
 };
